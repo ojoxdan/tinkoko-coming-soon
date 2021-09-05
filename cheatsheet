@@ -1,0 +1,5 @@
+sudo apt-get install python3-certbot-nginx
+sudo certbot --nginx -d tinkoko.com.ng -d www.tinkoko.com.ng
+
+to repopulate the post fix dialog box 
+sudo dpkg-reconfigure postfix
